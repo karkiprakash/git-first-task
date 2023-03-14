@@ -27,6 +27,17 @@ In professional setting
 three type of scenario
 
 Profile         Git branch
-production -->    main()
-UAT   --->         uat
-develop ---->    develop()
+production -->    main()            support
+UAT   --->         uat              QA
+develop ---->    develop()          QA, DEV
+
+git flow
+
+Inorder to see how many you have in your local system
+git branch
+
+git checkout -b uat
+//create a branch name with uat
+
+git checkout -b develop
+//create a branch name with develop
